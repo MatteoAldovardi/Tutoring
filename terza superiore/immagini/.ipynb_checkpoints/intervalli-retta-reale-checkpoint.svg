@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320">
+  <!-- Sfondo -->
+  <rect width="700" height="320" fill="#f8f9fa" />
+  
+  <!-- Titolo -->
+  <text x="350" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Rappresentazione grafica degli intervalli sulla retta reale</text>
+  
+  <!-- Retta reale principale -->
+  <line x1="50" y1="80" x2="650" y2="80" stroke="#333" stroke-width="2" />
+  
+  <!-- Tacche sulla retta -->
+  <line x1="100" y1="75" x2="100" y2="85" stroke="#333" stroke-width="2" />
+  <line x1="200" y1="75" x2="200" y2="85" stroke="#333" stroke-width="2" />
+  <line x1="300" y1="75" x2="300" y2="85" stroke="#333" stroke-width="2" />
+  <line x1="400" y1="75" x2="400" y2="85" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="75" x2="500" y2="85" stroke="#333" stroke-width="2" />
+  <line x1="600" y1="75" x2="600" y2="85" stroke="#333" stroke-width="2" />
+  
+  <!-- Numeri sulla retta -->
+  <text x="100" y="100" text-anchor="middle" font-family="Arial" font-size="14">1</text>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial" font-size="14">2</text>
+  <text x="300" y="100" text-anchor="middle" font-family="Arial" font-size="14">3</text>
+  <text x="400" y="100" text-anchor="middle" font-family="Arial" font-size="14">4</text>
+  <text x="500" y="100" text-anchor="middle" font-family="Arial" font-size="14">5</text>
+  <text x="600" y="100" text-anchor="middle" font-family="Arial" font-size="14">6</text>
+  
+  <!-- Etichette a sinistra -->
+  <text x="50" y="155" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold">Intervallo chiuso:</text>
+  <text x="50" y="195" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold">Intervallo aperto:</text>
+  <text x="50" y="235" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold">Intervallo semiaperto:</text>
+  <text x="50" y="275" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold">Intervallo semiaperto:</text>
+  
+  <!-- Intervallo chiuso [2, 4] -->
+  <text x="300" y="135" text-anchor="middle" font-family="Arial" font-size="14" fill="#d62728">[2, 4]</text>
+  <line x1="200" y1="155" x2="400" y2="155" stroke="#d62728" stroke-width="4" />
+  <circle cx="200" cy="155" r="6" fill="#d62728" />
+  <circle cx="400" cy="155" r="6" fill="#d62728" />
+  
+  <!-- Intervallo aperto (1, 5) -->
+  <text x="300" y="175" text-anchor="middle" font-family="Arial" font-size="14" fill="#2ca02c">(1, 5)</text>
+  <line x1="100" y1="195" x2="500" y2="195" stroke="#2ca02c" stroke-width="4" />
+  <circle cx="100" cy="195" r="6" fill="#f8f9fa" stroke="#2ca02c" stroke-width="2" />
+  <circle cx="500" cy="195" r="6" fill="#f8f9fa" stroke="#2ca02c" stroke-width="2" />
+  
+  <!-- Intervallo semiaperto [3, 6) -->
+  <text x="450" y="215" text-anchor="middle" font-family="Arial" font-size="14" fill="#1f77b4">[3, 6)</text>
+  <line x1="300" y1="235" x2="600" y2="235" stroke="#1f77b4" stroke-width="4" />
+  <circle cx="300" cy="235" r="6" fill="#1f77b4" />
+  <circle cx="600" cy="235" r="6" fill="#f8f9fa" stroke="#1f77b4" stroke-width="2" />
+  
+  <!-- Intervallo semiaperto (1, 3] -->
+  <text x="200" y="255" text-anchor="middle" font-family="Arial" font-size="14" fill="#ff7f0e">(1, 3]</text>
+  <line x1="100" y1="275" x2="300" y2="275" stroke="#ff7f0e" stroke-width="4" />
+  <circle cx="100" cy="275" r="6" fill="#f8f9fa" stroke="#ff7f0e" stroke-width="2" />
+  <circle cx="300" cy="275" r="6" fill="#ff7f0e" />
+  
+  <!-- Legenda -->
+  <text x="350" y="310" text-anchor="start" font-family="Arial" font-size="14">● Punto incluso (parentesi quadra)</text>
+  <text x="100" y="310" text-anchor="start" font-family="Arial" font-size="14">○ Punto escluso (parentesi tonda)</text>
+</svg>
